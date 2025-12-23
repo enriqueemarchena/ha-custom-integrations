@@ -1,0 +1,43 @@
+{
+  "title": "Wetteronline",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Wetteronline",
+        "description": "Define la ubicación y el idioma. Por defecto se usan las coordenadas de la casa.",
+        "data": {
+          "name": "Nombre (opcional)",
+          "latitude": "Latitud",
+          "longitude": "Longitud",
+          "elevation": "Altitud (m)",
+          "language": "Idioma",
+          "location_id": "ID de ubicación (opcional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo conectar con Wetteronline.",
+      "no_station": "No se encontró estación cercana para esas coordenadas.",
+      "unknown": "Ocurrió un error desconocido."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opciones de Wetteronline",
+        "description": "Ajusta los parámetros y recarga la integración para aplicar los cambios.",
+        "data": {
+          "latitude": "Latitud",
+          "longitude": "Longitud",
+          "elevation": "Altitud (m)",
+          "language": "Idioma",
+          "location_id": "ID de ubicación (opcional)",
+          "country_code": "Código de país para alertas (ISO-2)",
+          "time_zone": "Zona horaria",
+          "unit_system": "Sistema de unidades",
+          "scan_interval": "Intervalo de actualización (minutos)"
+        }
+      }
+    }
+  }
+}

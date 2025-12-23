@@ -1,0 +1,43 @@
+{
+  "title": "Wetteronline",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Wetteronline",
+        "description": "Set the location and language. By default the home coordinates are used.",
+        "data": {
+          "name": "Name (optional)",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "elevation": "Altitude (m)",
+          "language": "Language",
+          "location_id": "Location ID (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Wetteronline.",
+      "no_station": "No nearby station found for these coordinates.",
+      "unknown": "Unknown error occurred."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Wetteronline options",
+        "description": "Adjust settings and reload the integration to apply changes.",
+        "data": {
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "elevation": "Altitude (m)",
+          "language": "Language",
+          "location_id": "Location ID (optional)",
+          "country_code": "Country code for warnings (ISO-2)",
+          "time_zone": "Time zone",
+          "unit_system": "Unit system",
+          "scan_interval": "Update interval (minutes)"
+        }
+      }
+    }
+  }
+}
